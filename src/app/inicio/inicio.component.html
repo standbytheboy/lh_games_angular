@@ -48,61 +48,28 @@
       </button>
     </div>
   </section>
-  <section>
-    <mat-grid-list cols="3">
-      <mat-grid-tile
-        ><mat-card class="example-card">
-          <img
-            src="https://images.unsplash.com/photo-1698064534597-e039edaa0717"
-            alt="Jogo 1"
-          />
-          <mat-card-header>
-            <mat-card-title>Jogo 1</mat-card-title>
-          </mat-card-header>
-          <mat-card-content>
-            <p>Descrição do Jogo</p>
-            <p>R$ 400,00</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Comprar</button>
-          </mat-card-actions>
-        </mat-card></mat-grid-tile>
-      <mat-grid-tile
-        ><mat-card class="example-card">
-          <img
-            src="https://images.unsplash.com/photo-1749527175486-d37418187116"
-            alt="Jogo 2"
-          />
-          <mat-card-header>
-            <mat-card-title>Jogo 2</mat-card-title>
-          </mat-card-header>
-          <mat-card-content>
-            <p>Descrição do Jogo</p>
-            <p>R$ 400,00</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Comprar</button>
-          </mat-card-actions>
-        </mat-card>
-      </mat-grid-tile>
-      <mat-grid-tile
-        ><mat-card class="example-card">
-          <img
-            src="https://images.unsplash.com/photo-1566675162665-1dc1a5cd8dd0"
-            alt="Jogo 3"
-          />
-          <mat-card-header>
-            <mat-card-title>Jogo 3</mat-card-title>
-          </mat-card-header>
-          <mat-card-content>
-            <p>Descrição do Jogo</p>
-            <p>R$ 400,00</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Comprar</button>
-          </mat-card-actions>
-        </mat-card>
-      </mat-grid-tile>
-    </mat-grid-list>
-  </section>
+  
+  <h2>Jogos em Promoção</h2>
+
+  <mat-grid-list cols="3">
+    <mat-grid-tile *ngFor="let p of produtos">
+      <mat-card class="example-card">
+        <img src="./assets/img/{{p.foto}}" alt="produto">
+
+        <mat-card-header>
+          <mat-card-title>{{ p.produto }}</mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content>
+          <p>{{p.descricao}}</p>
+        </mat-card-content>
+
+        <mat-card-actions>
+          <p>{{p.preco | currency : 'BRL'}}</p>
+          <button mat-raised-button color="primary">Comprar</button>
+        </mat-card-actions>
+        
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
 </main>

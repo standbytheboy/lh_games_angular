@@ -17,6 +17,12 @@ import { MatInputModule } from '@angular/material/input';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RestritoComponent } from './restrito/restrito.component';
+import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.component';
+import { CadastroProdutoComponent } from './restrito/cadastro-produto/cadastro-produto.component';
+import { AtualizaProdutoComponent } from './restrito/atualiza-produto/atualiza-produto.component';
+import { RestritoRoutingModule } from './restrito/restrito-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,10 +31,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     InicioComponent,
     MenuComponent,
     RodapeComponent,
+    RestritoComponent,
+    ListaProdutoComponent,
+    CadastroProdutoComponent,
+    AtualizaProdutoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RestritoRoutingModule,
     MatButtonModule,
     MatCardModule,
     MatFormFieldModule,
@@ -37,7 +48,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatInputModule,
     MatMenuModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],

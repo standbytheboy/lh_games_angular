@@ -1,0 +1,25 @@
+{
+  "produtos": [
+    {
+    "id": 1,
+    "nome": "The Legend of Zelda: Tears of the Kingdom",
+    "foto": "https://example.com/fotos/zelda.jpg",
+    "descricao": "Explore um vasto mundo aberto e viva uma aventura épica com Link.",
+    "preco": 349.90
+  },
+  {
+    "id": 2,
+    "nome": "God of War Ragnarok",
+    "foto": "https://example.com/fotos/godofwar.jpg",
+    "descricao": "Kratos retorna em uma jornada cheia de ação e emoção pela mitologia nórdica.",
+    "preco": 299.90
+  },
+  {
+    "id": 3,
+    "nome": "FIFA 25",
+    "foto": "https://example.com/fotos/fifa25.jpg",
+    "descricao": "Experiência realista de futebol com novos modos de jogo e gráficos aprimorados.",
+    "preco": 249.90
+  }
+  ]
+}
