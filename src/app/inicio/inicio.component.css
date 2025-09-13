@@ -1,0 +1,43 @@
+main {
+    min-height: 500px;
+}
+
+#section-banner {
+    min-height: 400px;
+}
+
+#section-banner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+mat-grid-list {
+    margin: 10px 0;
+}
+
+mat-grid-tile {
+    padding: 2px;
+    border-radius: 30px;
+}
+
+mat-card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-card-actions {
+    display: flex;
+    justify-content: space-around;
+
+    & > p {
+        color: red;
+        font-size: 30px;
+    }
+}
+
+mat-card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}

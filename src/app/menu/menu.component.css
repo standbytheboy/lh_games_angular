@@ -1,0 +1,4 @@
+.example-spacer { flex: 1 1 auto; }
+.pointer, .logo { cursor: pointer; }
+span { padding: 10px; }
+img { height: 50px; width: 50px; }
