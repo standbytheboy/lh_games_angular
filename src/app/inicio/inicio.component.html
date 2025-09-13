@@ -51,10 +51,10 @@
   
   <h2>Jogos em Promoção</h2>
 
-  <mat-grid-list cols="3">
+  <mat-grid-list cols="4">
     <mat-grid-tile *ngFor="let p of produtos">
       <mat-card class="example-card">
-        <img src="./assets/img/{{p.foto}}" alt="produto">
+        <img src="{{p.foto}}" alt="produto">
 
         <mat-card-header>
           <mat-card-title>{{ p.produto }}</mat-card-title>

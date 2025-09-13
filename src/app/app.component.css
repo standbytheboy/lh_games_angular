@@ -1,0 +1,19 @@
+/* :host é uma forma de estilizar o próprio elemento <app-root> */
+:host {
+  display: block; /* Garante que o componente se comporte como um bloco */
+}
+
+.app-container {
+  display: flex; /* 1. Ativa o layout Flexbox */
+  flex-direction: column; /* 2. Empilha os itens verticalmente (menu, main, rodape) */
+  min-height: 100vh; /* 3. Garante que o container tenha no mínimo a altura da tela */
+}
+
+.content-wrap {
+  flex: 1 0 auto;
+  /* Isso é um atalho para:
+     flex-grow: 1;   (permite que o elemento cresça e ocupe o espaço livre)
+     flex-shrink: 0; (impede que o elemento encolha se o conteúdo for grande)
+     flex-basis: auto; (o tamanho inicial é automático)
+  */
+}

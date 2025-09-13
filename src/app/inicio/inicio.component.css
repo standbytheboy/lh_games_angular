@@ -11,6 +11,10 @@ main {
     object-fit: cover;
 }
 
+mat-card {
+    width: 300px;
+}
+
 mat-grid-list {
     margin: 10px 0;
 }

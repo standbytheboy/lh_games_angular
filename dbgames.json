@@ -1,25 +1,74 @@
 {
   "produtos": [
     {
-    "id": 1,
-    "nome": "The Legend of Zelda: Tears of the Kingdom",
-    "foto": "https://example.com/fotos/zelda.jpg",
-    "descricao": "Explore um vasto mundo aberto e viva uma aventura épica com Link.",
-    "preco": 349.90
-  },
-  {
-    "id": 2,
-    "nome": "God of War Ragnarok",
-    "foto": "https://example.com/fotos/godofwar.jpg",
-    "descricao": "Kratos retorna em uma jornada cheia de ação e emoção pela mitologia nórdica.",
-    "preco": 299.90
-  },
-  {
-    "id": 3,
-    "nome": "FIFA 25",
-    "foto": "https://example.com/fotos/fifa25.jpg",
-    "descricao": "Experiência realista de futebol com novos modos de jogo e gráficos aprimorados.",
-    "preco": 249.90
-  }
+      "id": 1,
+      "nome": "The Legend of Zelda: Tears of the Kingdom",
+      "foto": "https://m.media-amazon.com/images/I/81KGsbq8ekL.jpg",
+      "descricao": "Explore um vasto mundo aberto e viva uma aventura épica com Link.",
+      "preco": 349.90
+    },
+    {
+      "id": 2,
+      "nome": "God of War Ragnarok",
+      "foto": "https://cdn1.epicgames.com/spt-assets/edaff839f0734d16bc89d2ddb1dc9339/steel-magnolia-15owu.jpg",
+      "descricao": "Kratos retorna em uma jornada cheia de ação e emoção pela mitologia nórdica.",
+      "preco": 299.90
+    },
+    {
+      "id": 3,
+      "nome": "FIFA 25",
+      "foto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2669320/86a267ec44fc57124127eba46f25120813374317/capsule_616x353.jpg?t=1752681627",
+      "descricao": "Experiência realista de futebol com novos modos de jogo e gráficos aprimorados.",
+      "preco": 249.90
+    },
+    {
+      "id": 4,
+      "nome": "Elden Ring",
+      "foto": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/capsule_616x353.jpg?t=1748630546",
+      "descricao": "Um RPG de ação em mundo aberto desenvolvido em colaboração com George R. R. Martin.",
+      "preco": 279.90
+    },
+    {
+      "id": 5,
+      "nome": "Spider-Man 2",
+      "foto": "https://gmedia.playstation.com/is/image/SIEPDC/spider-man-2-keyart-01-en-7june24?$facebook$",
+      "descricao": "Peter Parker e Miles Morales enfrentam novos vilões em uma aventura eletrizante.",
+      "preco": 319.90
+    },
+    {
+      "id": 6,
+      "nome": "Hogwarts Legacy",
+      "foto": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000014724/72ce0a17215521a167c3da579db4cc48a2f7a52eacc81ad985ba20fd6817fdc2",
+      "descricao": "Viva sua própria aventura no universo de Harry Potter como estudante de Hogwarts.",
+      "preco": 289.90
+    },
+    {
+      "id": 7,
+      "nome": "Resident Evil 4 Remake",
+      "foto": "https://t.ctcdn.com.br/hDtcsgIqWe5TvaTMw53ze-IPbWE=/1200x675/smart/i706956.jpeg",
+      "descricao": "Reviva a clássica jornada de Leon S. Kennedy em gráficos totalmente reimaginados.",
+      "preco": 269.90
+    },
+    {
+      "id": 8,
+      "nome": "Final Fantasy XVI",
+      "foto": "https://image.api.playstation.com/vulcan/ap/rnd/202211/1007/M1j1kwGXMhbfA8OQo3r7wrMw.jpg",
+      "descricao": "Uma nova história épica no universo de Final Fantasy com batalhas intensas.",
+      "preco": 329.90
+    },
+    {
+      "id": 9,
+      "nome": "Street Fighter 6",
+      "foto": "https://image.api.playstation.com/vulcan/ap/rnd/202211/1408/l3bg7nmfPpPzam5jOVlaUFww.jpg",
+      "descricao": "A icônica franquia de luta retorna com novos personagens e mecânicas inovadoras.",
+      "preco": 239.90
+    },
+    {
+      "id": 10,
+      "nome": "Cyberpunk 2077: Phantom Liberty",
+      "foto": "https://cdn1.epicgames.com/offer/77f2b98e2cef40c8a7437518bf420e47/EGS_Cyberpunk2077PhantomLiberty_CDPROJEKTRED_DLC_S1_2560x1440-c62f1eb1498aaea2fc109b7aa50279a3",
+      "descricao": "Expansão de Cyberpunk 2077 com nova história e personagens em Night City.",
+      "preco": 199.90
+    }
   ]
 }
